@@ -1,0 +1,21 @@
+{
+  "name": "instaclone",
+  "version": "1.0.0",
+  "description": "instaclone with prisma and graphql and react native",
+  "scripts": {
+    "dev": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CYY1007/Instagram-clone.git"
+  },
+  "keywords": [
+    "graphql"
+  ],
+  "author": "yongwook",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CYY1007/Instagram-clone/issues"
+  },
+  "homepage": "https://github.com/CYY1007/Instagram-clone#readme"
+}
