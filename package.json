@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "instaclone with prisma and graphql and react native",
   "scripts": {
-    "dev": ""
+    "dev": "nodemon --exec node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/CYY1007/Instagram-clone/issues"
   },
-  "homepage": "https://github.com/CYY1007/Instagram-clone#readme"
+  "homepage": "https://github.com/CYY1007/Instagram-clone#readme",
+  "dependencies": {
+    "apollo-server": "^2.25.2",
+    "graphql": "^15.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
 }
