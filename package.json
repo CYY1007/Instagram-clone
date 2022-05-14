@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "instaclone with prisma and graphql and react native",
   "scripts": {
-    "dev": "nodemon --exec node server.js"
+    "dev": "npx nodemon --exec babel-node server.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,9 @@
     "graphql": "^15.4.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
     "nodemon": "^2.0.16"
   }
 }
