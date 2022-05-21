@@ -4,7 +4,7 @@ Insta clone backend.
 
 ## USer:
 
-- [] Create Account
+- [✅] Create Account
 - [] See Profile
 - [] Edit Profile
 - [] Follow User

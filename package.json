@@ -4,7 +4,8 @@
   "description": "instaclone with prisma and graphql and react native",
   "scripts": {
     "dev": "npx nodemon --exec babel-node server.js",
-    "migrate": "npx prisma migrate dev"
+    "migrate": "npx prisma migrate dev",
+    "studio": "npx prisma studio"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
     "@graphql-tools/schema": "^8.3.13",
     "@prisma/client": "^3.14.0",
     "apollo-server": "^2.25.2",
+    "bcrypt": "^5.0.1",
     "graphql": "^15.4.0",
     "prisma": "^3.14.0"
   },
